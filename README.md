@@ -29,7 +29,7 @@ $ npm i express-session
 ```javascript
 $ npm i pg
 ```
-# install dotenc
+# install dotenс
 ```javascript
 $ npm i dotenv
 ```
