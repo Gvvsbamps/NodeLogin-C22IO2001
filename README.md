@@ -29,6 +29,10 @@ $ npm i express-session
 ```javascript
 $ npm i pg
 ```
+# install dotenc
+```javascript
+$ npm i dotenv
+```
 # install typescript
 ```javascript
 $ npm i typescript
