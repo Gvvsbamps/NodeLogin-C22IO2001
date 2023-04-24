@@ -39,6 +39,10 @@ $ npm i typescript
 ```
 # install ts-node
 ```javascript
+$ npm i -g ts-node 
+```
+# run ts-node
+```javascript
 ts-node login.ts
 ```
 # View localhost
