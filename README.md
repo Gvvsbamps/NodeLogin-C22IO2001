@@ -1,7 +1,5 @@
 # NodeLogin-C22IO2001
 express login page
-# website
-Гэрийн даалгавар
 
 # create database
 ```javascript
@@ -13,8 +11,8 @@ CREATE TABLE accounts ( id SERIAL UNIQUE,
 username varchar(50) NOT NULL, 
 password varchar(255) NOT NULL, 
 email varchar(100) NOT NULL, 
-PRIMARY KEY (id) ) ```
-
+PRIMARY KEY (id) ) 
+```
 # insert user
 ```javascript
 INSERT INTO accounts (id, username, password, email) VALUES (1, 'test', 'test', 'test@test.com');
@@ -23,19 +21,23 @@ INSERT INTO accounts (id, username, password, email) VALUES (1, 'test', 'test', 
 ```javascript
 $ npm i express
 ```
-or
+# install express-session
 ```javascript
 $ npm i express-session
 ```
-# run server
+# install pg
 ```javascript
-$ npm i tsx
+$ npm i pg
 ```
-# view website
+# install typescript
+```javascript
+$ npm i typescript
+```
+# install ts-node
+```javascript
+ts-node login.ts
+```
+# View localhost
 ```javascript
 localhost:3000
-```
-or
-```javascript
-127.0.0.1:3000
 ```
